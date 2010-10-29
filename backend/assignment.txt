@@ -1,0 +1,18 @@
+In the sql directory is a mysql dump of a portion of our testing database.
+
+The database contains Company, Account, Entry and Month tables.
+
+One Company has many Accounts. One Account has many Entries. One Entry has a date which can be found in the Month table.
+
+Months with no entries do not appear in the Entry table.
+
+Your job is to suggest a 12 month forecast for a Company based on their historical data.
+
+You can use php, R, python, scala, javascript, haskell, erlang or Ruby for your coding.
+
+The code should take a company_id as a command line argument, and return a csv to STDOUT file for that company, with accounts as rows and months as columns.
+
+Don't forget to read the branching rules in README before beginning!
+
+
+
